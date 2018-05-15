@@ -28,3 +28,7 @@ const char DeltaDomain::getA() const {
 bool DeltaDomain::operator == (DeltaDomain ddomain) {
 	return ddomain.getA() == a && ddomain.getQ() == q;
 }
+
+bool const DeltaDomain::operator == (const DeltaDomain ddomain) const {
+	return ddomain.getA() == a && ddomain.getQ() == q;
+}
