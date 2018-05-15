@@ -13,8 +13,15 @@ int DeltaDomain::getQ() {
 	return q;
 }
 
+const int DeltaDomain::getQ() const {
+	return q;
+}
 
 char DeltaDomain::getA() {
+	return a;
+}
+
+const char DeltaDomain::getA() const {
 	return a;
 }
 

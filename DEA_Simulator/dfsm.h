@@ -9,14 +9,14 @@ private:
 	int numStates;
 	unordered_set<char> alphabet;
 	unordered_set<int> acceptingStates;
-	unordered_map<DeltaDomain, int> transistionFunction;
+	unordered_map<DeltaDomain, int, DeltaDomain::KeyHasher> transistionFunction;
 	int startingState;
 
 public:
 	DFSM(int numStates, char alphabet[]);
 	void setStartingState(int state);
-	void setAccetpting(int state);
-	void setREjectsion(int state);
+	void setAccepting(int state);
+	void setRejecting(int state);
 	void addTransition(int from, char with, int to);
 	bool run(string s);
 
