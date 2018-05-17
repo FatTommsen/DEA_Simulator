@@ -8,4 +8,6 @@ private:
 	string errormsg;
 public:
 	DFSMExcpetion(string strErrorMsg);
+	~DFSMExcpetion();
+	string getError();
 };

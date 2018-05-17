@@ -33,6 +33,9 @@
     <ClInclude Include="deltadomain.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="dfsmlistener.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -48,6 +51,9 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="deltadomain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="dfsmlistener.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

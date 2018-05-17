@@ -150,6 +150,7 @@
     <ClInclude Include="deltadomain.h" />
     <ClInclude Include="dfsm.h" />
     <ClInclude Include="dfsmexception.h" />
+    <ClInclude Include="dfsmlistener.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="stdincl.h" />
     <ClInclude Include="targetver.h" />
@@ -159,6 +160,7 @@
     <ClCompile Include="deltadomain.cpp" />
     <ClCompile Include="dfsm.cpp" />
     <ClCompile Include="dfsmexception.cpp" />
+    <ClCompile Include="dfsmlistener.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

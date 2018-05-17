@@ -1,7 +1,9 @@
 ﻿  dfsm.cpp
 c:\creativeprogramms\projects\cpp\dea_simulator\dea_simulator\deltadomain.h(12): warning C4091: "static ": Ignoriert auf der linken Seite von "DeltaDomain::KeyHasher", wenn keine Variable deklariert wurde
-  deltadomain.cpp
+c:\creativeprogramms\projects\cpp\dea_simulator\dea_simulator\dfsm.cpp(12): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+c:\creativeprogramms\projects\cpp\dea_simulator\dea_simulator\dfsm.cpp(135): warning C4018: "<=": Konflikt zwischen "signed" und "unsigned"
+c:\creativeprogramms\projects\cpp\dea_simulator\dea_simulator\dfsm.cpp(136): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  DEA_Simulator.cpp
 c:\creativeprogramms\projects\cpp\dea_simulator\dea_simulator\deltadomain.h(12): warning C4091: "static ": Ignoriert auf der linken Seite von "DeltaDomain::KeyHasher", wenn keine Variable deklariert wurde
   Code wird generiert...
-  LINK : C:\CreativeProgramms\projects\cpp\DEA_Simulator\Debug\DEA_Simulator.exe wurde nicht gefunden oder beim letzten inkrementellen Linkvorgang nicht erstellt; vollständiger Link wird durchgeführt.
   DEA_Simulator.vcxproj -> C:\CreativeProgramms\projects\cpp\DEA_Simulator\Debug\DEA_Simulator.exe

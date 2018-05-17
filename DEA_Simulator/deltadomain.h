@@ -17,6 +17,7 @@ private:
 	int hash;
 public:
 	DeltaDomain(int q, int a);
+	~DeltaDomain();
 	bool operator == ( const DeltaDomain ddomain);
 	bool const operator == (const DeltaDomain ddomain) const;
 

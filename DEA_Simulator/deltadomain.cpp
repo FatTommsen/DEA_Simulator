@@ -9,6 +9,10 @@ DeltaDomain::DeltaDomain(int q, int a)
 
 }
 
+DeltaDomain::~DeltaDomain() {
+
+}
+
 int DeltaDomain::getQ() {
 	return q;
 }
